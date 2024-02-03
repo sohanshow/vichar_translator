@@ -3,8 +3,13 @@ import speech_recognition as sr
 import openai
 import threading
 import queue
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Initialize the recognizer, microphone, and a queue to hold audio
 recognizer = sr.Recognizer()
