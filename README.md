@@ -16,4 +16,4 @@ This is a very initial script and is subject to complete change upon discussion.
 Currently the output is in console but we shall create an application to push it
 in any format required.
 
-Dhan Nirankar Ji \_/\_
+Dhan Nirankar Ji [_/\_]
